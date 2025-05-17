@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CartoonWorld - Your Favorite Cartoons</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="cartoon-face">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="mouth"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <span class="logo-icon"><i class="fas fa-tv"></i></span>
+          <h1>Cartoon<span>World</span></h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shows">Shows</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h2 class="hero-title">Welcome to <span>CartoonWorld</span></h2>
+          <p class="hero-subtitle">Where your favorite characters come to life!</p>
+          <div class="hero-buttons">
+            <a href="#shows" class="btn btn-primary">Explore Shows</a>
+            <a href="#" class="btn btn-secondary">Subscribe</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="hero.jpg" alt="Cartoon Characters" class="floating">
+        </div>
+      </div>
+    </div>
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+  </section>
+
+  <!-- Featured Shows -->
+  <section class="featured-shows" id="shows">
+    <div class="container">
+      <h2 class="section-title">Featured <span>Shows</span></h2>
+      <p class="section-subtitle">Check out our most popular cartoons</p>
+
+      <div class="shows-grid">
+        <div class="show-card">
+          <div class="show-poster">
+            <img src="https://i.imgur.com/5QzY7bA.jpg" alt="Adventure Time">
+            <div class="show-badge">New</div>
+          </div>
+          <div class="show-info">
+            <h3>Adventure Time</h3>
+            <div class="show-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.5</span>
+            </div>
+            <p>Join Finn and Jake on their adventures in the Land of Ooo!</p>
+            <a href="#" class="btn btn-small">Watch Now</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <div class="show-poster">
+            <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Steven Universe">
+            <div class="show-badge popular">Popular</div>
+          </div>
+          <div class="show-info">
+            <h3>Steven Universe</h3>
+            <div class="show-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>5.0</span>
+            </div>
+            <p>Steven and the Crystal Gems protect the Earth from threats.</p>
+            <a href="#" class="btn btn-small">Watch Now</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <div class="show-poster">
+            <img src="https://i.imgur.com/3sXhTQY.jpg" alt="Gravity Falls">
+          </div>
+          <div class="show-info">
+            <h3>Gravity Falls</h3>
+            <div class="show-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>4.0</span>
+            </div>
+            <p>Dipper and Mabel uncover mysteries in the strange town.</p>
+            <a href="#" class="btn btn-small">Watch Now</a>
+          </div>
+        </div>
+
+        <div class="show-card">
+          <div class="show-poster">
+            <img src="https://i.imgur.com/9YgDZzF.jpg" alt="Regular Show">
+          </div>
+          <div class="show-info">
+            <h3>Regular Show</h3>
+            <div class="show-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>4.5</span>
+            </div>
+            <p>Mordecai and Rigby's antics at the park are anything but regular.</p>
+            <a href="#" class="btn btn-small">Watch Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <a href="#" class="btn btn-outline">View All Shows</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Characters Section -->
+  <section class="characters-section" id="characters">
+    <div class="container">
+      <h2 class="section-title">Popular <span>Characters</span></h2>
+      <p class="section-subtitle">Meet your favorite cartoon characters</p>
+
+      <div class="characters-slider">
+        <div class="slider-container">
+          <div class="character-card">
+            <div class="character-image">
+              <img src="https://i.imgur.com/5QzY7bA.png" alt="Finn" class="character-img">
+            </div>
+            <div class="character-info">
+              <h3>Finn the Human</h3>
+              <p>Adventure Time</p>
+              <div class="character-quote">"Algebraic!"</div>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="https://i.imgur.com/8Km9tLL.png" alt="Steven" class="character-img">
+            </div>
+            <div class="character-info">
+              <h3>Steven Universe</h3>
+              <p>Steven Universe</p>
+              <div class="character-quote">"If every porkchop were perfect..."</div>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="https://i.imgur.com/3sXhTQY.png" alt="Dipper" class="character-img">
+            </div>
+            <div class="character-info">
+              <h3>Dipper Pines</h3>
+              <p>Gravity Falls</p>
+              <div class="character-quote">"When there's no cops around, anything's legal!"</div>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="https://i.imgur.com/9YgDZzF.png" alt="Mordecai" class="character-img">
+            </div>
+            <div class="character-info">
+              <h3>Mordecai</h3>
+              <p>Regular Show</p>
+              <div class="character-quote">"You know who else says that? MY MOM!"</div>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="https://i.imgur.com/JqYeZRn.png" alt="Jake" class="character-img">
+            </div>
+            <div class="character-info">
+              <h3>Jake the Dog</h3>
+              <p>Adventure Time</p>
+              <div class="character-quote">"Dude, suckin' at something is the first step..."</div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Games Section -->
+  <section class="games-section" id="games">
+    <div class="container">
+      <h2 class="section-title">Cartoon <span>Games</span></h2>
+      <p class="section-subtitle">Play games with your favorite characters</p>
+
+      <div class="games-grid">
+        <div class="game-card">
+          <div class="game-thumbnail">
+            <img src="https://i.imgur.com/5QzY7bA.jpg" alt="Adventure Time Game">
+            <div class="play-btn"><i class="fas fa-play"></i></div>
+          </div>
+          <div class="game-info">
+            <h3>Adventure Time: Explore</h3>
+            <p>Explore the Land of Ooo with Finn and Jake</p>
+            <div class="game-tags">
+              <span class="tag">Adventure</span>
+              <span class="tag">Action</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-thumbnail">
+            <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Steven Universe Game">
+            <div class="play-btn"><i class="fas fa-play"></i></div>
+          </div>
+          <div class="game-info">
+            <h3>Steven Universe: Save the Light</h3>
+            <p>Join the Crystal Gems to protect Beach City</p>
+            <div class="game-tags">
+              <span class="tag">RPG</span>
+              <span class="tag">Puzzle</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="game-thumbnail">
+            <img src="https://i.imgur.com/3sXhTQY.jpg" alt="Gravity Falls Game">
+            <div class="play-btn"><i class="fas fa-play"></i></div>
+          </div>
+          <div class="game-info">
+            <h3>Gravity Falls: Mystery</h3>
+            <p>Solve mysteries with Dipper and Mabel</p>
+            <div class="game-tags">
+              <span class="tag">Mystery</span>
+              <span class="tag">Puzzle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <div class="newsletter-text">
+          <h3>Subscribe to Our Newsletter</h3>
+          <p>Get updates on new shows, games, and exclusive content!</p>
+        </div>
+        <div class="newsletter-form">
+          <form id="subscribe-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="about">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <div class="logo">
+            <span class="logo-icon"><i class="fas fa-tv"></i></span>
+            <h1>Cartoon<span>World</span></h1>
+          </div>
+          <p>Bringing your favorite cartoons to life since 2023.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Cartoon Street, Animation City</li>
+            <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> info@cartoonworld.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2023 CartoonWorld. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
